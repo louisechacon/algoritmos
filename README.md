@@ -1,1 +1,1 @@
-Resoluções das listas de exercícios para prática da maratona de programação e para a disciplina de Algoritmos.
+Repositório unindo as resoluções de exercícios para a prática da maratona de programação e também da disciplina de Algoritmos.
