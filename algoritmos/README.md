@@ -6,4 +6,8 @@ Escreva um algoritmo que retorne a quantidade da maior sublista contígua não d
 lista é menor-igual ao seu sucessor.
 
 # soma_s
-Escreva um algoritmo que leia um array a de n (2 ≤ n ≤ 10^9) números inteiros e determine se existe no array um par de números cuja soma seja s (1 ≤ s ≤ 2 × 10^9), também informado na entrada. (Eu sei que minha solução não é a ideal no pior caso, mas foi o melhor que eu consegui pensar até agora, lol).
+Escreva um algoritmo que leia um array a de n (2 ≤ n ≤ 10^9) números inteiros e determine se existe no array um par de números cuja soma seja s (1 ≤ s ≤ 2 × 10^9), também informado na entrada.
+
+# elementos_repetidos
+Dado um array A de n elementos (1 ≤ n ≤ 106), você deve verificar se há elementos repetidos no array. Os
+elementos são números inteiros Ai (0 ≤ Ai ≤ 105) e não estão ordenados.
