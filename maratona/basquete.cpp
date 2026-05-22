@@ -6,12 +6,12 @@ void calcula(int n) {
 	string tempo;
 	int contTemp1 = 0;
 	int contTemp2 = 0;
+    cin.ignore();
 
 	for (int i = 0; i < n; i++) {
-		cin >> tempo;
-		
-		string idTempo = "";
-		string idPontos = "";
+		getline(cin, tempo);
+		char idTempo = "";
+		char idPontos = "";
 		idTempo = tempo[6];
 		idPontos = tempo[9];
 			
