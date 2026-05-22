@@ -26,3 +26,15 @@ Print a line that contains all values of n during the algorithm.
 
 ## Constraints
 1 ≤ n ≤ 10^6
+
+# O sensor diferente
+Input
+A primeira linha da entrada possui um inteiro (1 ≤ T ≤ 104), o n ́umero de casos de teste. Cada uma das T linhas seguintes possui 3 inteiros, (−109 ≤ K1, K2, K3 ≤ 109), representando os valores medidos por cada um dos sensores. É garantido que exatamente dois desses valores serão iguais.
+Output
+Imprima um único n ́umero inteiro: o valor do sensor que apresenta leitura diferente dos outros dois.
+
+# Misturador Frase-Palavra
+Input
+A entrada cont ́em uma  ́unica linha com a palavra S. É garantido que  S  ́e uma palavra com |S| letras minÚsculas (2 ≤ |S| ≤ 10, |S| é par).
+Output
+Imprima duas linhas: a primeira deve conter a palavra A e a segunda a palavra B.
