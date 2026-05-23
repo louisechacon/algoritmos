@@ -10,25 +10,25 @@ void calcula(int n) {
 
 	for (int i = 0; i < n; i++) {
 		getline(cin, tempo);
-		char idTempo = "";
-		char idPontos = "";
+		char idTempo;
+		char idPontos;
 		idTempo = tempo[6];
 		idPontos = tempo[9];
 			
-		if (idTempo == "1") {
-			if (idPontos == "1") {
+		if (idTempo == '1') {
+			if (idPontos == '1') {
 				contTemp1 += 1;
-			} else if (idPontos == "2") {
+			} else if (idPontos == '2') {
 				contTemp1 += 2;
 			} else {
 				contTemp1 += 3;
 			}
 		}
 			
-		if (idTempo == "2") {
-			if (idPontos == "1") {
+		if (idTempo == '2') {
+			if (idPontos == '1') {
 				contTemp2 += 1;
-			} else if (idPontos == "2") {
+			} else if (idPontos == '2') {
 				contTemp2 += 2;
 			} else {
 				contTemp2 += 3;
