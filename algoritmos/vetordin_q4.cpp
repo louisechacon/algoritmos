@@ -26,11 +26,7 @@ bool remove(int value) {
             this->size_--;
 
             if (this->size_ < this->capacity_/4) {
-                this->data = decrease_capacity(
-                    this->data,
-                    this->capacity_,
-                    this->size_
-                );
+                this->data = decrease_capacity(this->data, this->capacity_, this->size_);
             }
 
             return true;
@@ -38,4 +34,4 @@ bool remove(int value) {
     }
 
     return false;
-}
+} // O(n)? levando também em consideração que decrease_capacity será chamada n vezes
