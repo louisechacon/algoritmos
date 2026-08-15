@@ -1,3 +1,5 @@
+// código do professor
+
 #ifndef __ARRAY_LIST_IFRN__
 #define __ARRAY_LIST_IFRN__
 

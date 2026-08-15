@@ -1,3 +1,5 @@
+// código do professor
+
 #ifndef __LINKED_LIST_IFRN__
 #define __LINKED_LIST_IFRN__
 

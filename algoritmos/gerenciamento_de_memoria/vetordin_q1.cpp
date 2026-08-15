@@ -21,14 +21,13 @@ public:
 	vector() {
 		this->size_ = 0;
 		this->capacity_ = 100;
-		// this->increase_size_ = 1000;
 		this->data = new int[100];
 	}
 	
 void push_back(int value) {
 	if (this->size() == this->capacity())
 		increase_capacity();
-	this->data[this->size_++] = value; // equivalente abaixo
+	this->data[this->size_++] = value;
 	// ou: this->data[this->size_] = value;
 	//this->size_++;
 }

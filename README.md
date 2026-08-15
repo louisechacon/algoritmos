@@ -1,1 +1,1 @@
-Repositório unindo as resoluções de exercícios para a prática da maratona de programação e também da disciplina de Algoritmos.
+Repositório unindo resoluções de exercícios da disciplina de Algoritmos e também da prática para maratonas de programação.

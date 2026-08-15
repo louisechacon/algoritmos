@@ -34,4 +34,4 @@ bool remove(int value) {
     }
 
     return false;
-} // O(n)? levando também em consideração que decrease_capacity será chamada n vezes
+} // O(n), levando também em consideração que decrease_capacity será chamada n vezes
